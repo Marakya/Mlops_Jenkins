@@ -9,6 +9,7 @@ pipeline {
     stage('data creation') {
       steps {
         sh 'python3 data_creation.py'
+        echo 'Done'
       }
     }
   }
