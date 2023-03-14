@@ -1,8 +1,8 @@
-# import random
+import random
 # import numpy as np
-# import pandas as pd
-# from sklearn.datasets import make_regression
-# from sklearn.model_selection import train_test_split
+import pandas as pd
+from sklearn.datasets import make_regression
+from sklearn.model_selection import train_test_split
 
 n_features = random.randint(3,7)
 n_features_iter = np.arange(n_features)
