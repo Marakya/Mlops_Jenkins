@@ -1,8 +1,3 @@
-pip install random
-pip install numpy
-pip install sklearn
-
-
 import random
 import numpy as np
 import pandas as pd
