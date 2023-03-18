@@ -7,9 +7,13 @@ pipeline {
       }
     }
     
-    stage('run') {
+    stage('installing libraries') {
         steps {
-            build job : "requirements.txt"
+            sh 'python3 -m pip install scikit-learn'
+            sh 'python3 -m pip install numpy'
+            sh 'python3 -m pip install pandas'
+            sh 'python3 -m pip install scipy'
+            echo 'Successful instalation'
         }
     }
     
