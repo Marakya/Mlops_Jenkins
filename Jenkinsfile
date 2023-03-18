@@ -17,34 +17,6 @@ pipeline {
         }
     }
     
-//     stage('install scikit-learn') {
-//         steps {
-//             sh 'python3 -m pip install scikit-learn'
-//             echo 'scikit-learn'
-//         }
-//     }
-    
-//     stage('install numpy') {
-//         steps {
-//             sh 'python3 -m pip install numpy'
-//             echo 'numpy'
-//         }
-//     }
-    
-//     stage('install pandas') {
-//         steps {
-//             sh 'python3 -m pip install pandas'
-//             echo 'pandas'
-//         }
-//     }
-    
-//     stage('install scipy') {
-//         steps {
-//             sh 'python3 -m pip install scipy'
-//             echo 'scipy'
-//         }
-//     }
-    
     stage('data creation') {
       steps {
         sh 'python3 data_creation.py'
