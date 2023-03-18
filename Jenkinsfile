@@ -7,33 +7,39 @@ pipeline {
       }
     }
     
-    stage('install scikit-learn') {
+    stage('run') {
         steps {
-            sh 'python3 -m pip install scikit-learn'
-            echo 'scikit-learn'
+            build job : "requirements.txt"
         }
     }
     
-    stage('install numpy') {
-        steps {
-            sh 'python3 -m pip install numpy'
-            echo 'numpy'
-        }
-    }
+//     stage('install scikit-learn') {
+//         steps {
+//             sh 'python3 -m pip install scikit-learn'
+//             echo 'scikit-learn'
+//         }
+//     }
     
-    stage('install pandas') {
-        steps {
-            sh 'python3 -m pip install pandas'
-            echo 'pandas'
-        }
-    }
+//     stage('install numpy') {
+//         steps {
+//             sh 'python3 -m pip install numpy'
+//             echo 'numpy'
+//         }
+//     }
     
-    stage('install scipy') {
-        steps {
-            sh 'python3 -m pip install scipy'
-            echo 'scipy'
-        }
-    }
+//     stage('install pandas') {
+//         steps {
+//             sh 'python3 -m pip install pandas'
+//             echo 'pandas'
+//         }
+//     }
+    
+//     stage('install scipy') {
+//         steps {
+//             sh 'python3 -m pip install scipy'
+//             echo 'scipy'
+//         }
+//     }
     
     stage('data creation') {
       steps {
