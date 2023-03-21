@@ -16,5 +16,7 @@
 
 ### Console output
 
-![Снимок экрана от 2023-03-21 10-05-03](https://user-images.githubusercontent.com/113238801/226523880-393c3925-a8b8-4fc6-a4cf-2f7da9524065.png)
 ![Снимок экрана от 2023-03-21 10-04-37](https://user-images.githubusercontent.com/113238801/226523884-a66d711b-5705-44a4-bdb5-67433b0b8246.png)
+
+![Снимок экрана от 2023-03-21 10-05-03](https://user-images.githubusercontent.com/113238801/226523880-393c3925-a8b8-4fc6-a4cf-2f7da9524065.png)
+
