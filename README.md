@@ -9,6 +9,9 @@
 
 ![Снимок экрана от 2023-03-21 10-08-19](https://user-images.githubusercontent.com/113238801/226523654-a85f009c-7d78-4467-991a-ac9db1a916cd.png)
 
+![image](https://user-images.githubusercontent.com/113238801/227915023-60eb4751-c28a-43f5-ab42-cf9c444c7c7e.png)
+
+
 ### Pipeline
 
 ![Снимок экрана от 2023-03-21 10-01-46](https://user-images.githubusercontent.com/113238801/226523779-ff838757-a059-47b2-90c8-258bb6b87884.png)
